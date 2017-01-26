@@ -8,10 +8,12 @@ This basic wrapper is designed to:
 
 ### Example use
 
-- Setup
+- [Setup](#setup)
  - [With Redis](#setup-with-redis)
  - [Without Redis](#setup-without-redis)
 - [Inserting Records](#inserting-a-record)
+
+### Setup
 
 #### Setup with Redis
 
