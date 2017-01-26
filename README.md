@@ -19,7 +19,7 @@ This basic wrapper is designed to:
 
 'use strict'
 
-const RDBWrapper = require('./lib/reasondb-wrapper')
+const RDBWrapper = require('./reasondb-wrapper')
 
 const db = new RDBWrapper({
   root:  './db',
@@ -37,7 +37,7 @@ const db = new RDBWrapper({
 
 'use strict'
 
-const RDBWrapper = require('./lib/reasondb-wrapper')
+const RDBWrapper = require('./reasondb-wrapper')
 
 const db = new RDBWrapper({
   root:  './db',
