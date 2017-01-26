@@ -10,6 +10,7 @@ This basic wrapper is designed to:
  - [With Redis](#setup-with-redis)
  - [Without Redis](#setup-without-redis)
 - [Inserting Records](#inserting-a-record)
+- [Getting Records](#getting-records)
 - [Roadmap](#roadmap)
 
 ### Setup
