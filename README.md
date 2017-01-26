@@ -6,12 +6,11 @@ This basic wrapper is designed to:
 - Simplify query building
 - Add a little Syntactic sugar into the mix 
 
-### Example use
-
 - [Setup](#setup)
  - [With Redis](#setup-with-redis)
  - [Without Redis](#setup-without-redis)
 - [Inserting Records](#inserting-a-record)
+- [Roadmap](#roadmap)
 
 ### Setup
 
@@ -69,3 +68,17 @@ db.use(Person).put(person).then((response) => {
 })
 
   ```
+
+### Roadmap
+- ~~Connection configuration~~
+- ~~Create DB directory and missing Primative directories~~
+- ~~Cleans data~~
+- ~~Ability to specify type of fallback~~
+- ~~Ability to POST data~~
+- GET data
+- DELETE data
+- Paginate results
+- Metadata in results
+- Specify fields to return
+- Optional document schema for nested Reference documents
+- Query builder
