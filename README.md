@@ -75,7 +75,7 @@ db.use(Person).put(person).then((response) => {
 - ~~Cleans data~~
 - ~~Ability to specify type of fallback~~
 - ~~Ability to POST data~~
-- GET data
+- ~~GET data~~
 - DELETE data
 - Paginate results
 - Metadata in results
