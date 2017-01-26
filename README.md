@@ -49,7 +49,7 @@ const db = new RDBWrapper({
 })
   ```
 
-  ### Inserting a record
+### Inserting a record
 
   ```javascript
 
