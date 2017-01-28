@@ -11,6 +11,7 @@ This basic wrapper is designed to:
  - [Without Redis](#setup-without-redis)
 - [Inserting Records](#inserting-a-record)
 - [Getting Records](#getting-records)
+- [Paginating and limiting Records](#paginating-and-limiting-records)
 - [Roadmap](#roadmap)
 
 ### Setup
@@ -88,6 +89,24 @@ db.use(Person).get().then((response) => {
 
 ```
 
+### Pagination and limiting records
+
+```javascript
+
+class Person {
+  constructor (name, birthday) {
+    this.name = name
+    this.birthday = birthday
+  }
+}
+
+
+db.use(Person).page(1).limit(20).fields({name: 1}).get().then((response) => {
+  console.log(response)
+})
+
+```
+
 ### Roadmap
 - ~~Connection configuration~~
 - ~~Create DB directory and missing Primative directories~~
@@ -95,9 +114,9 @@ db.use(Person).get().then((response) => {
 - ~~Ability to specify type of fallback~~
 - ~~Ability to POST data~~
 - ~~GET data~~
-- DELETE data
-- Paginate results
+- ~~Paginate results~~
+- ~~Specify fields to return~~
 - Metadata in results (part complete)
-- Specify fields to return
+- DELETE data
 - Optional document schema for nested Reference documents
-- Query builder
+- Query builder (filter parameter)
