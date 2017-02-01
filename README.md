@@ -118,7 +118,7 @@ db.use(Person).page(1).limit(20).fields({name: 1}).get().then((response) => {
 - ~~GET data~~
 - ~~Paginate results~~
 - ~~Specify fields to return~~
+- ~~DELETE data~~
 - Metadata in results (part complete)
-- DELETE data
 - Optional document schema for nested Reference documents
 - Query builder (filter parameter)
