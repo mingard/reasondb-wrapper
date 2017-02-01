@@ -16,13 +16,15 @@ This basic wrapper is designed to:
 
 ### Setup
 
+Run `[sudo] npm install reasondb-wrapper --save`
+
 #### Setup with Redis
 
 ```javascript
 
 'use strict'
 
-const RDBWrapper = require('./reasondb-wrapper')
+const RDBWrapper = require('reasondb-wrapper')
 
 const db = new RDBWrapper({
   root:  './db',
@@ -40,7 +42,7 @@ const db = new RDBWrapper({
 
 'use strict'
 
-const RDBWrapper = require('./reasondb-wrapper')
+const RDBWrapper = require('reasondb-wrapper')
 
 const db = new RDBWrapper({
   root:  './db',
