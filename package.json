@@ -1,6 +1,6 @@
 {
   "name": "reasondb-wrapper",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Syntactic sugar for reasondb",
   "main": "index.js",
   "scripts": {
