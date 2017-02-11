@@ -1,6 +1,6 @@
 {
   "name": "reasondb-wrapper",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "Syntactic sugar for reasondb",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "dependencies": {
     "mkdirp": "^0.5.1",
     "path": "^0.12.7",
-    "reasondb": "github:anywhichway/reasondb",
+    "reasondb": "github:anywhichway/reasondb#v0.3.0",
     "redis": "^2.6.5",
     "underscore": "^1.8.3",
     "lodash": "^4.17.4"
